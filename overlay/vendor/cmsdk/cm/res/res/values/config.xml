@@ -16,7 +16,13 @@
 -->
 <resources>
 
+<<<<<<< HEAD
     <!-- All the capabilities of the LEDs on this device, stored as a bit field.
+=======
+
+
+ <!-- All the capabilities of the LEDs on this device, stored as a bit field.
+>>>>>>> 232c860... shamrock: Switch to the unified LED capabilities overlay
          This integer should equal the sum of the corresponding value for each
          of the following capabilities present:
 
@@ -29,6 +35,10 @@
 
          For example, a device support pulsating, RGB notification and
          battery LEDs would set this config to 11. -->
+<<<<<<< HEAD
     <integer name="config_deviceLightCapabilities">43</integer>
+=======
+    <integer name="config_deviceLightCapabilities">11</integer>
+>>>>>>> 232c860... shamrock: Switch to the unified LED capabilities overlay
 
 </resources>
